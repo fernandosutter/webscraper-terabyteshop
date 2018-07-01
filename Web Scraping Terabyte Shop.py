@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as soup
 import requests
 
 span = '</span>'
-# Pagina guadada na variavel, a url pode ser modificada para qualquer departamento.
+# Pagina guardada na variavel, a url pode ser modificada para qualquer departamento.
 url = requests.get("https://www.terabyteshop.com.br/hardware/placas-de-video")
 
 # Ver se a página foi baixada com sucesso(200 = baixada com sucesso)
